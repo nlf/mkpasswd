@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var crypto = require('crypto');
 var sha512crypt = require('sha512crypt-node');
 var pw = require('pw');
