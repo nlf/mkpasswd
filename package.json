@@ -1,0 +1,30 @@
+{
+  "name": "mkpasswd",
+  "version": "1.0.0",
+  "description": "mkpasswd util for node, generates crypt(3) compatible hashes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nlf/mkpasswd.git"
+  },
+  "keywords": [
+    "crypt",
+    "crypt(3)",
+    "shadow",
+    "apache",
+    "passwd"
+  ],
+  "author": "Nathan LaFreniere <quitlahok@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlf/mkpasswd/issues"
+  },
+  "homepage": "https://github.com/nlf/mkpasswd",
+  "dependencies": {
+    "pw": "0.0.4",
+    "sha512crypt-node": "~0.1.0"
+  },
+  "bin": {
+      "mkpasswd": "./index.js"
+  }
+}
